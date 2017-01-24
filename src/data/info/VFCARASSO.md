@@ -1,0 +1,1 @@
+{"pictname":"VFCARASSO.jpg","selected":"3","item":"6","title1":"Vera Carasso","title2":"","inhoud":"Kan ev. uitgeknipt worden. Echter lastig ivm raamstijl op achtergrond."}

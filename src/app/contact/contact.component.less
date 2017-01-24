@@ -1,0 +1,321 @@
+@padding: 10px;
+@radius: 5px;
+@back: #ffffff;
+@front: #000000;
+
+@knop1: #94b5c3;
+@knop1H: #c8e9f7;
+@knop1HR: #f70e26;
+@knop1HG: #26f73e;
+@knop2: #61818f;
+@knop3: #afd2ff;
+
+Body {
+  font-family: 'Nunito', sans-serif;
+}
+
+//________________________________________________________________________________________________
+button {
+  margin-top: 20px;
+  font-size: 1em;
+//  font-family: Arial;
+  background-color: @knop1;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 6em;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #ffffff;
+  color: #ccc;
+  cursor: auto;
+}
+.knopA {
+  display: block;
+  clear: none;
+  background-color: @knop1H;
+  color: @knop2;
+  padding: 2px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+}
+
+.knopB {
+  display: block;
+  clear: none;
+  background-color: @knop1H;
+  color: black;
+  padding: 2px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+}
+
+.knop1 {
+  .knopA;
+  float: left;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.knop2 {
+  .knopA;
+  float: right;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.knop3 {
+  .knopB;
+  float: left;
+  width: 100px;
+  margin-bottom: 5px;
+
+}
+
+//________________________________________________________________________________________________
+.kolom {
+  display: flex;
+  color: @front;
+  margin: 1px;
+  background-color: @back;
+  padding: 1%;
+  float: left;
+}
+
+@width1: 94vw;
+@width2: 45vw;
+@width3: 29vw;
+@width4: 21vw;
+
+.wijd1 {
+  width: @width1;
+  img {
+    max-width: @width1;
+  }
+}
+.wijd2 {
+  width: @width2;
+  img {
+    max-width: @width2;
+  }
+}
+.wijd3 {
+  width: @width3;
+  img {
+    max-width: @width3;
+  }
+}
+.wijd4 {
+  width: @width4;
+  img {
+    max-width: @width4;
+  }
+}
+
+//________________________________________________________________________________________________
+
+/* Mobile Layout: 480px and below. */
+
+#vrij {
+  height: 140px;
+}
+
+.kolom0 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+.kolom1 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+.kolom2 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+.kolom3 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+.kolom4 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+.kolom5 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+.kolom6 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+.kolom7 {
+  clear: both;
+  .wijd1;
+}
+.kolom8 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+.kolom9 {
+  clear: both;
+  .wijd1;
+  .kolom;
+}
+
+//________________________________________________________________________________________________
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+  #vrij {
+    height: 120px;
+  }
+
+  .kolom0 {
+    clear: both;
+    .wijd1;
+    .kolom;
+  }
+
+  .kolom1 {
+    clear: both;
+    .wijd1;
+    .kolom;
+  }
+
+  .kolom2 {
+    clear: both;
+    .wijd2;
+    .kolom;
+  }
+
+  .kolom3 {
+    clear: none;
+    .wijd2;
+    .kolom;
+  }
+
+  .kolom4 {
+    clear: both;
+    .wijd2;
+    .kolom;
+  }
+
+  .kolom5 {
+    clear: none;
+    .wijd2;
+    .kolom;
+  }
+
+  .kolom6 {
+    clear: both;
+    .wijd4;
+    .kolom;
+  }
+
+  .kolom7 {
+    clear: none;
+    .wijd1;
+  }
+
+  .kolom8 {
+    clear: none;
+    .wijd4;
+    .kolom;
+  }
+
+  .kolom9 {
+    clear: none;
+    .wijd4;
+    .kolom;
+  }
+}
+
+//________________________________________________________________________________________________
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+  #vrij {
+    height: 120px;
+  }
+
+  .kolom0 {
+    clear: both;
+    .wijd1;
+    .kolom;
+  }
+
+  .kolom1 {
+    clear: both;
+    .wijd1;
+    .kolom;
+  }
+
+  .kolom2 {
+    clear: both;
+    .wijd2;
+    .kolom;
+  }
+
+  .kolom3 {
+    clear: none;
+    .wijd2;
+    .kolom;
+  }
+
+  .kolom4 {
+    clear: both;
+    .wijd2;
+    .kolom;
+  }
+
+  .kolom5 {
+    clear: none;
+    .wijd2;
+    .kolom;
+  }
+
+  .kolom6 {
+    clear: both;
+    .wijd4;
+    .kolom;
+  }
+
+  .kolom7 {
+    clear: none;
+    .wijd4;
+    .kolom;
+  }
+
+  .kolom8 {
+    clear: none;
+    .wijd4;
+    .kolom;
+  }
+
+  .kolom9 {
+    clear: none;
+    .wijd4;
+    .kolom;
+  }
+}
+//________________________________________________________________________________________________

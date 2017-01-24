@@ -1,0 +1,61 @@
+<body class="HolyGrail">
+
+<header class="header"
+        (swipeleft)="swipe($event.type)"
+        (swiperight)="swipe($event.type)">
+    <div class="logo" (click)="onNavigate(items[0])">
+        <img src="./resources/LOGO.jpg">
+    </div>
+
+    <div *ngIf="large" class="posAbs">
+        <div  *ngFor="let item of items; let i=index">
+            <div    *ngIf="(i != pageNu)"
+                    class="nonKeuze"
+                    (click)="onNavigate(item)" >
+                {{item.data.name}}
+            </div>
+            <div    *ngIf="(i == pageNu)"
+                    class="keuze"
+                    (click)="onNavigate(item)" >
+                {{item.data.name}}
+            </div>
+        </div>
+    </div>
+</header>
+
+<div *ngIf="!large" class="handje">
+    <div *ngIf="!cross" class="mk" (click)="toggle()">
+        <img src="./resources/menu1.png" style="width:40px;height:40px" >
+    </div>
+    <div *ngIf="cross" class="mk" (click)="toggle()">
+        <img src="./resources/cross1.png" style="width:40px;height:40px">
+    </div>
+    <div *ngIf="cross" class="small">
+        <div  *ngFor="let item of items; let i=index">
+            <div    *ngIf="(i != pageNu)"
+                    class="nonKeuze1"
+                    (click)="onNavigate(item)" >
+                {{item.data.name}}
+            </div>
+            <div    *ngIf="(i == pageNu)"
+                    class="keuze1"
+                    (click)="onNavigate(item)" >
+                {{item.data.name}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="HolyGrail-body">
+    <main class="HolyGrail-content">
+        <div *ngIf="dataSel[0]"><app-home></app-home></div>
+        <div *ngIf="dataSel[1]"><app-over></app-over></div>
+        <div *ngIf="dataSel[2]"><app-contact></app-contact></div>
+    </main>
+</div>
+
+<div class="footer">
+    <app-start></app-start>
+</div>
+
+</body>

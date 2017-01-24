@@ -1,0 +1,111 @@
+Body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.HolyGrail {
+  display: flex;
+  min-height: 98vh;
+  flex-direction: column;
+//  background-color: #61818f;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+
+.HolyGrail-content {
+  flex: 1;
+}
+.HolyGrail-ads {
+  /* 8em is the width of the columns */
+  flex: 0 0 8em;
+  background-color: @knop1;
+}
+
+/*
+.HolyGrail-nav {
+  !* 12em is the width of the columns *!
+  flex: 0 0 8em;
+}
+
+.HolyGrail-nav {
+  !* put the nav on the left *!
+  order: -1;
+}
+*/
+
+.handje {
+  cursor: pointer;
+}
+
+.header {
+  text-align: left;
+  margin-top: 20px;
+  background-color: white;
+}
+
+#vrij {
+  height: 140px;
+}
+
+//_____________________________________________________________________
+
+@padding: 10px;
+@radius: 5px;
+
+@knop1: #ffffff;
+
+.mk {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.small {
+  background-color: rgba(60, 60, 60, 0.60);
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  .common;
+  .handje;
+  img {
+    width: 70vw;
+    max-width: 1024px;
+    height: 14.3vw;
+    max-height: 209px;
+  }
+}
+  .common {
+//    border: 3px solid black;
+    display: flex;
+    color: #434343;
+    font-size: 24px;
+    float:left;
+    flex: 1;
+//    color: blue;
+    margin-right: 30px;
+//    margin-top: 150px;
+  }
+
+  .keuze {
+    .common;
+    text-decoration: underline;
+    width: 110px;
+  }
+  .nonKeuze {
+    .common;
+    text-decoration: none;
+    width: 110px;
+  }
+
+  .posAbs {
+    position: static;
+    margin-top: 80px;
+    .handje
+  }
+//_____________________________________________________________________

@@ -1,0 +1,518 @@
+Body {
+  font-family: 'Nunito', sans-serif;
+}
+button {
+  margin-top: 20px;
+  font-size: 1em;
+  background-color: #94b5c3;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 6em;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #ffffff;
+  color: #ccc;
+  cursor: auto;
+}
+.knopA {
+  display: block;
+  clear: none;
+  background-color: #c8e9f7;
+  color: #61818f;
+  padding: 2px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+}
+.knopB {
+  display: block;
+  clear: none;
+  background-color: #c8e9f7;
+  color: black;
+  padding: 2px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+}
+.knop1 {
+  display: block;
+  clear: none;
+  background-color: #c8e9f7;
+  color: #61818f;
+  padding: 2px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+  float: left;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.knop2 {
+  display: block;
+  clear: none;
+  background-color: #c8e9f7;
+  color: #61818f;
+  padding: 2px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+  float: right;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.knop3 {
+  display: block;
+  clear: none;
+  background-color: #c8e9f7;
+  color: black;
+  padding: 2px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+  float: left;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.kolom {
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.wijd1 {
+  width: 95vw;
+}
+.wijd1 img {
+  max-width: 95vw;
+}
+.wijd2 {
+  width: 46vw;
+}
+.wijd2 img {
+  max-width: 46vw;
+}
+.wijd3 {
+  width: 30vw;
+}
+.wijd3 img {
+  max-width: 30vw;
+}
+.wijd4 {
+  width: 22vw;
+}
+.wijd4 img {
+  max-width: 22vw;
+}
+/* Mobile Layout: 480px and below. */
+.kolom0 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom0 img {
+  max-width: 95vw;
+}
+.kolom1 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom1 img {
+  max-width: 95vw;
+}
+.kolom2 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom2 img {
+  max-width: 95vw;
+}
+.kolom3 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom3 img {
+  max-width: 95vw;
+}
+.kolom4 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom4 img {
+  max-width: 95vw;
+}
+.kolom5 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom5 img {
+  max-width: 95vw;
+}
+.kolom6 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom6 img {
+  max-width: 95vw;
+}
+.kolom7 {
+  clear: both;
+  width: 95vw;
+}
+.kolom7 img {
+  max-width: 95vw;
+}
+.kolom8 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom8 img {
+  max-width: 95vw;
+}
+.kolom9 {
+  clear: both;
+  width: 95vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+  margin: 1px;
+}
+.kolom9 img {
+  max-width: 95vw;
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 481px) {
+  #vrij {
+    height: 120px;
+  }
+  .kolom0 {
+    clear: both;
+    width: 95vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom0 img {
+    max-width: 95vw;
+  }
+  .kolom1 {
+    clear: both;
+    width: 95vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom1 img {
+    max-width: 95vw;
+  }
+  .kolom2 {
+    clear: both;
+    width: 46vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom2 img {
+    max-width: 46vw;
+  }
+  .kolom3 {
+    clear: none;
+    width: 46vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom3 img {
+    max-width: 46vw;
+  }
+  .kolom4 {
+    clear: both;
+    width: 46vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom4 img {
+    max-width: 46vw;
+  }
+  .kolom5 {
+    clear: none;
+    width: 46vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom5 img {
+    max-width: 46vw;
+  }
+  .kolom6 {
+    clear: both;
+    width: 22vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom6 img {
+    max-width: 22vw;
+  }
+  .kolom7 {
+    clear: none;
+    width: 95vw;
+  }
+  .kolom7 img {
+    max-width: 95vw;
+  }
+  .kolom8 {
+    clear: none;
+    width: 22vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom8 img {
+    max-width: 22vw;
+  }
+  .kolom9 {
+    clear: none;
+    width: 22vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom9 img {
+    max-width: 22vw;
+  }
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
+  #vrij {
+    height: 120px;
+  }
+  .kolom0 {
+    clear: both;
+    width: 95vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom0 img {
+    max-width: 95vw;
+  }
+  .kolom1 {
+    clear: both;
+    width: 95vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom1 img {
+    max-width: 95vw;
+  }
+  .kolom2 {
+    clear: both;
+    width: 46vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom2 img {
+    max-width: 46vw;
+  }
+  .kolom3 {
+    clear: none;
+    width: 46vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom3 img {
+    max-width: 46vw;
+  }
+  .kolom4 {
+    clear: both;
+    width: 46vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom4 img {
+    max-width: 46vw;
+  }
+  .kolom5 {
+    clear: none;
+    width: 46vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom5 img {
+    max-width: 46vw;
+  }
+  .kolom6 {
+    clear: both;
+    width: 22vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom6 img {
+    max-width: 22vw;
+  }
+  .kolom7 {
+    clear: none;
+    width: 22vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom7 img {
+    max-width: 22vw;
+  }
+  .kolom8 {
+    clear: none;
+    width: 22vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom8 img {
+    max-width: 22vw;
+  }
+  .kolom9 {
+    clear: none;
+    width: 22vw;
+    display: flex;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1%;
+    float: left;
+    margin: 1px;
+  }
+  .kolom9 img {
+    max-width: 22vw;
+  }
+}

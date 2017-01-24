@@ -1,0 +1,57 @@
+//_____________________________________________________________________
+@back: #ffffff;
+@front: #000000;
+
+@width0: 20vw;
+@width1: 30vw;
+@width2: 30vw;
+
+.wijd0 {
+  width: @width0;
+  img {
+    max-width: @width0;
+  }
+}
+.wijd1 {
+  width: @width1;
+  img {
+    max-width: @width1;
+  }
+}
+.wijd2 {
+  width: @width2;
+  img {
+    max-width: @width2;
+  }
+}
+
+.kolom {
+  display: flex;
+  color: @front;
+  background-color: @back;
+  float: left;
+  margin-bottom: 10px;
+  max-height: 80px;
+}
+.kolom0 {
+  clear: both;
+  .wijd0;
+  .kolom;
+  img {
+    margin-top: 20px;
+  }
+}
+.kolom1 {
+  clear: none;
+  .wijd1;
+  .kolom;
+}
+.kolom2 {
+  clear: none;
+  .wijd2;
+  .kolom;
+}
+
+
+
+//________________________________________________________________________________________________

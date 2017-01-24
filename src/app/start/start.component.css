@@ -1,0 +1,68 @@
+.wijd0 {
+  width: 20vw;
+}
+.wijd0 img {
+  max-width: 20vw;
+}
+.wijd1 {
+  width: 30vw;
+}
+.wijd1 img {
+  max-width: 30vw;
+}
+.wijd2 {
+  width: 30vw;
+}
+.wijd2 img {
+  max-width: 30vw;
+}
+.kolom {
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  float: left;
+  margin-bottom: 10px;
+  max-height: 80px;
+}
+.kolom0 {
+  clear: both;
+  width: 20vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  float: left;
+  margin-bottom: 10px;
+  max-height: 80px;
+}
+.kolom0 img {
+  max-width: 20vw;
+}
+.kolom0 img {
+  margin-top: 20px;
+}
+.kolom1 {
+  clear: none;
+  width: 30vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  float: left;
+  margin-bottom: 10px;
+  max-height: 80px;
+}
+.kolom1 img {
+  max-width: 30vw;
+}
+.kolom2 {
+  clear: none;
+  width: 30vw;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  float: left;
+  margin-bottom: 10px;
+  max-height: 80px;
+}
+.kolom2 img {
+  max-width: 30vw;
+}
